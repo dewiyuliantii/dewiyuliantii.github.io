@@ -2,10 +2,34 @@ h3 {
     text-decoration: underline;
 }
 
-table, td {
-    border: 1px dashed black;
+table {
+    border: 2px dashed black;
+    background-color: #bd7e71;
+    border-style: inset;
+}
+th{
+    border: 1px salmon;
+    background-color:tomato ;
+}
+td {
+    border: 1px solid blanchedalmond;
+    background-color: coral;
 }
 
-td {
-    border: 1px solid burlywood;
+#header {
+    background-color: #bd7e71;
+    border-radius: 10px;
+}
+
+#content {
+    background-color: #ffcba4;
+}
+#name {
+    text-align:left ; font-size: 35px;
+    padding-left: 15px;
+}
+#email {
+    text-align:left ; font-size: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
 }
